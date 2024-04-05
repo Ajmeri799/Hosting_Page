@@ -1,15 +1,24 @@
 *{
     margin: 0;
     padding: 0;
+    /* overflow: hidden; */
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    background-image: url('../images/backcover.svg');
+    background-position: right;
+    background-size: 48%;
+    background-repeat: no-repeat;
 }
 nav{
 display: flex;
+align-items: center;
 justify-content: space-around;
-margin-top:20px;
+height: 50px;
 }
-nav:nth-child(1){
+nav img{
     height:40px;
-
 }
 
 .nav-items{
@@ -18,7 +27,7 @@ nav:nth-child(1){
 }
 .nav-item{
     margin-left:20px;
-    font-size: 18px;
+    font-size: 13px;
 }
 button{
     border-radius:20px;
@@ -28,37 +37,49 @@ button{
     font-weight:800px;
 
 }
+/* ---------------- */
 .signin-btn{
 
-    background-color:red;
     padding: 0px 15px;
 
 }
+/* --------------------------- */
 .intro-section{
  display: flex;
-    background-color: aqua;
 }
-
 .left-section{
-    padding:30px;
+    margin-left: 7rem;
+    margin-top: 7rem;
+    
+}
+.left-section h1{
+
+    font-size: 3rem;
+    color: #3e4794;
+    margin-bottom: 3rem;
+    font-weight: 700;
+    font-family: 'Lato', sans-serif;
 
 }
-
-.vector-img:first-child{
-    font-size:30px;
-    /* background-color: cadetblue; */
-    border-radius:0 0 0 50px;
+.left-section h4 {
+    color: #758283;
+    font-size: .9rem;
+    margin-bottom: 3rem;
+    width: 50%;
+    line-height: 1.8;
 }
+/* ................ */
 
 .vector-img{
     position: absolute;
     bottom:5rem;
     
 }
+
 .vector-dot{
     position: absolute;
     bottom:11rem;
-    left: 43.5rem;
+    left: 42rem;
 }
 .learn-more-btn{
 
@@ -66,8 +87,9 @@ font-size: 15px;
 padding: 10px 20px;
 }
 [alt="intro-img"] {
-  height: 550px;
-  margin:20px 50px;
+  height: 590px;
+  width:700px;
+  
 }
 
 
